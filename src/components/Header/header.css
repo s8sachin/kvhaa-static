@@ -1,0 +1,28 @@
+/****************Header css**************/
+.width-100px{
+  width: 100px;
+}
+
+@media (min-width: 768px) {
+  .hide-md-up {
+    display: none !important;
+  }
+}
+
+.btn-orange{
+  background-color: #ff9900;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 7px 11px;
+  /*box-shadow: 1px 1px 6px #888888;*/
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
+  border: 0px;
+  font-weight: 600;
+  /* display: block; */
+}
+
+.btn-orange:hover {
+  opacity: 0.8;
+}
+/****************Header css ends**************/
