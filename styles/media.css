@@ -1,0 +1,32 @@
+@media (min-width: 767px) {
+  .pull-right-md-up {
+    float: right !important;
+  }
+  #promoBannerModal .modal-dialog {
+    width: 66%;
+  }
+}
+
+@media (max-width: 767px) {
+  .hide-md-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .brandname {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .hide-md-up {
+    display: none !important;
+  }
+}
+
+@media (width: 768px) {
+  .hide-md{
+    display: none;
+  }
+}
