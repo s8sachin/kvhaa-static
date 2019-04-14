@@ -271,6 +271,11 @@ footer .small-print {
 .list_image {
   max-height: 150px;
 }
+.partner-div img, h3, p{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 /*Advertisements ends*/
 /*hall of fame*/
 .achieverImg{
