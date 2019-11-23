@@ -220,7 +220,32 @@
           </div><br>
         </div>
       </div>
+    <!-- The Modal -->
+    <div class="modal fade" id="promoModal" role="dialog">
+      <div class="modal-dialog modal-md" style="max-width: 400px;">
+        <!-- <div class="modal-content"> -->
 
+          <!-- Modal Header -->
+          <!-- <div class="modal-header">
+            <h4 class="modal-title">Modal Heading</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div> -->
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" style="position: absolute;right: 27px; font-size: 40px;">&times;</button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScp3-DrVHAQEWrfYAQWhu38PEhzk3AaUOk1lfXrOOuexwT_-g/viewform" target="_blank">
+              <img class="img-responsive" style="width: 100%; max-width: 400px; margin:auto;" src="https://i.ibb.co/9G69GPs/kvhaa-Reunion.jpg" >
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
     <!-- Footer -->
     <footer>
       <!-- Footer Links -->
@@ -262,3 +287,8 @@
     </footer>
   </body>
 </html>
+<script>
+  $(window).on('load',function(){
+    $('#promoModal').modal('show');
+  });
+</script>
